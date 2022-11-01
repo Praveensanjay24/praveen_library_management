@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include praveen_library_management *.css
+recursive-include praveen_library_management *.csv
+recursive-include praveen_library_management *.html
+recursive-include praveen_library_management *.ico
+recursive-include praveen_library_management *.js
+recursive-include praveen_library_management *.json
+recursive-include praveen_library_management *.md
+recursive-include praveen_library_management *.png
+recursive-include praveen_library_management *.py
+recursive-include praveen_library_management *.svg
+recursive-include praveen_library_management *.txt
+recursive-exclude praveen_library_management *.pyc
